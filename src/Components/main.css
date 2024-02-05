@@ -1,0 +1,80 @@
+.navbar {
+    margin-top: -10px;
+    background-color: burlywood;
+    height: 3.5rem;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.navlist li {
+    margin: 0px 10px;
+}
+
+.navlist li a {
+    text-decoration: none;
+}
+
+.register {
+    margin-top: 5rem;
+    margin-left: 32rem;
+    height: 25rem;
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(109, 151, 236);
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+
+}
+
+.form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .75rem;
+
+}
+.form .item{
+    width: 20rem;
+    height: 1.5rem;
+}
+.register button{
+    margin-top: .5rem;
+    width: 6rem;
+    height: 2rem;
+}
+
+.users{
+    /* display: flex; */
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+.userList{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    /* border: solid black 2px; */
+}
+.userList li{
+    margin-top: -1rem;
+    display: flex;
+    border: solid black 2px;
+    padding: 0.7rem 3rem;
+    font-size: larger;
+    font-weight: 500;
+    width: 8rem;
+    height: 2rem;
+    text-align: center;
+    justify-content: center;
+}
